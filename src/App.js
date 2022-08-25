@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense, useRef } from 'react';
+import { Canvas } from '@react-three/fiber';
+import { Environment } from '@react-three/drei';
+import Overlay from './Overlay';
+import Model from './Model';
 
 function App() {
+  const overlay = useRef()
+  const caption = useRef()
+  const scroll = useRef(0)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Canvas
+        shadows
+        onCreated={(state) => state.events.connect(overlay.current)}
+        raycaster={{ computeOffsets: ({ clientX, clientY }) => ({ offsetX: clientX, offsetY: clientY }) }}>
+        <ambientLight intensity={1} />
+        <Suspense fallback={null}>
+          <Model scroll={scroll} />
+          <Environment preset="city" />
+        </Suspense>
+      </Canvas>
+      <Overlay ref={overlay} caption={caption} scroll={scroll} />
+    </>
   );
 }
 
