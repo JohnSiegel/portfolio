@@ -2,7 +2,6 @@ import * as THREE from "three"
 import React, { useEffect, useRef, useState } from "react"
 import { useGLTF, useAnimations, PerspectiveCamera } from "@react-three/drei"
 import { useFrame } from "@react-three/fiber"
-import SocialBox from './SocialBox'
 
 const color = new THREE.Color()
 
@@ -54,7 +53,6 @@ export default function Model({ scroll, ...props }) {
                         intensity={2}
                         shadow-bias={-0.0001}
                     />
-                    <SocialBox position={[2.5, -1.25, -8]} />
                 </PerspectiveCamera>
             </group>
         </group>

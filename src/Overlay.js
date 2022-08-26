@@ -13,9 +13,9 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         <h1>John Siegel</h1>
         Software Engineer with an interest in machine learning, graphics, and web development.
         <br />
-        <div style={{ textAlign: "center", padding: "64px" }}>
+        <div style={{ textAlign: "center", padding: "96px" }}>
           <button className="button" onClick={(e) => { window.location.href = '/Resume.pdf' }}>
-            <p>Download CV</p>
+            <span className="button-text" >Download CV</span>
           </button>
         </div>
       </div>
@@ -41,7 +41,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
             <td>Java</td>
             <td>Verilog</td>
           </tr>
-          <tr style={{padding: "8px", textAlign: 'left' }}>
+          <tr style={{ padding: "8px", textAlign: 'left' }}>
             <th>Software and Tools</th>
           </tr>
           <tr>
@@ -79,21 +79,18 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div style={{ height: "200vh" }}>
       <div className="blob">
         <h1>Education</h1>
-        <img src="virginiatech.png" alt="Virginia Tech Logo" style={{width: 150, height: 150}}/>
+        <img src="virginiatech.png" alt="Virginia Tech Logo" style={{ width: 150, height: 150 }} />
         <h3>B.S. Computer Science, Virginia Tech, 2023</h3>
       </div>
     </div>
     <div style={{ height: "200vh" }}>
       <div className="blob">
-        <h1>Something</h1>
-        Some thing else here
+        <h1>Links</h1>
+        
       </div>
     </div>
     <span className="caption" ref={caption}>
       Scroll down
-    </span>
-    <span className="drag-caption">
-      Drag cursor to browse social links below
     </span>
   </div>
 ))
