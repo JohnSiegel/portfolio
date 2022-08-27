@@ -1,4 +1,5 @@
 import React, { forwardRef } from "react"
+import SocialLink from "./SocialLink";
 
 const Overlay = forwardRef(({ caption, scroll }, ref) => (
   <div
@@ -13,8 +14,8 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         <h1>John Siegel</h1>
         Software Engineer with an interest in machine learning, graphics, and web development.
         <br />
-        <div style={{ textAlign: "center", padding: "96px" }}>
-          <button className="button" onClick={(e) => { window.location.href = '/Resume.pdf' }}>
+        <div style={{ textAlign: "left", paddingTop: "32px" }}>
+          <button className="button" onClick={(e) => { window.location.href = '/Resume.pdf' }} style={{border: 'none'}}>
             <span className="button-text" >Download CV</span>
           </button>
         </div>
@@ -86,7 +87,13 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div style={{ height: "200vh" }}>
       <div className="blob">
         <h1>Links</h1>
-        
+        <div style={{ lineHeight: "64px", width: "256px" }}>
+          <SocialLink url="https://github.com/JohnSiegel" text="GitHub" />
+          <SocialLink url="https://www.linkedin.com/in/john-siegel-560333166/" text="LinkedIn" />
+          <SocialLink url="mailto:jp@john-siegel.com" text="E-Mail" />
+          <SocialLink url="https://stackoverflow.com/users/17799086/john-siegel" text="Stackoverflow" />
+          <SocialLink url="https://discordapp.com/users/338154696546058250/" text="Discord" />
+        </div>
       </div>
     </div>
     <span className="caption" ref={caption}>
