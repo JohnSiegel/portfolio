@@ -23,6 +23,21 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         </div>
       </div>
     </div>
+    <div style={{ height: "175vh" }}>
+      <div className="blob">
+        <h1>About</h1>
+        I am a software developer with a passion for machine learning, graphics, and web development. I began
+        learning to code when I was 12 years old. At a young age, technology seemed like magic to me, and those
+        who developed technology were wizards. I wanted to be a software wizard as well, so I hit the books. I
+        started with "Hello world" in Java, and transitioned to making mods for Minecraft. I yearned for more
+        opportunities to learn magic, so I spent all my free time watching programming videos on YouTube until
+        I got to highschool where I could finally register for my first programming class. My teacher noticed my
+        passion and really helped me actualize my goals of becoming the greatest software developer I could
+        possibly be. My teacher signed me up for a programming competition, which I won and felt incredibly
+        accomplished. Since then, I've been on a non-stop journey of improvement. I wake up every day incredibly
+        excited for what I may learn and accomplish. Software is a major part of my life.
+      </div>
+    </div>
     <div style={{ height: "100vh" }}>
       <div className="blob">
         <h1>Skills</h1>
