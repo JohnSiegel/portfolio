@@ -9,19 +9,21 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
       caption.current.innerText = scroll.current === 1 ? '' : 'Scroll down';
     }}
     className="scroll">
-    <div style={{ height: "400vh" }}>
+    <div style={{ height: "100vh" }}>
       <div className="blob">
         <h1>John Siegel</h1>
         Software Engineer with an interest in machine learning, graphics, and web development.
         <br />
         <div style={{ textAlign: "left", paddingTop: "32px" }}>
-          <button className="button" onClick={(e) => { window.location.href = '/Resume.pdf' }} style={{border: 'none'}}>
-            <span className="button-text" >Download CV</span>
-          </button>
+          <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+            <button className="button" style={{ border: 'none' }}>
+              <span className="button-text" >Download CV</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
-    <div style={{ height: "200vh" }}>
+    <div style={{ height: "100vh" }}>
       <div className="blob">
         <h1>Skills</h1>
         <table>
@@ -75,16 +77,81 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div style={{ height: "200vh" }}>
       <div className="blob">
         <h1>Experience</h1>
+        <h3 style={{ textDecorationLine: 'underline' }}>
+          05/22 - Current
+        </h3>
+        <h4>
+          Stellar Science, Jr. Scientific Software Engineer
+        </h4>
+        <ul>
+          <li>
+            Developing C++ software for physics simulation and image manipulation
+          </li>
+          <li>
+            Working on tasks related to computer vision and graphics
+          </li>
+          <li>
+            Creating GUIs with Qt
+          </li>
+          <li>
+            Practicing test-driven development techniques in a large codebase
+          </li>
+        </ul>
+        <h3 style={{ textDecorationLine: 'underline' }}>
+          03/22 - Current
+        </h3>
+        <h4>
+          Phitnest, Development Team Lead
+        </h4>
+        <ul>
+          <li>
+            Leading a team of 8 developers
+          </li>
+          <li>
+            Writing technical documentation and a developer wiki
+          </li>
+          <li>
+            Organizing sprints, holding scrum, and using a Kanban on Notion
+          </li>
+          <li>
+            Gaining experience using MongoDB, Express, Nodejs, and Flutter to
+            develop a cross-platform mobile app
+          </li>
+          <li>
+            Working directly with UX professionals and market researchers
+          </li>
+        </ul>
+        <h3 style={{ textDecorationLine: 'underline' }}>
+          10/21 - Current
+        </h3>
+        <h4>
+          Project Shinobi, C++ Developer
+        </h4>
+        <ul>
+          <li>
+            Developing a video game with Unreal Engine 5
+          </li>
+          <li>
+            Working in a team of 20 developers
+          </li>
+          <li>
+            Working with complex shaders, 3D models, texturing, dynamic lighting,
+            animation, and UI
+          </li>
+          <li>
+            Writing gameplay algorithms in C++ using a multitude of large libraries
+          </li>
+        </ul>
       </div>
     </div>
-    <div style={{ height: "200vh" }}>
+    <div style={{ height: "100vh" }}>
       <div className="blob">
         <h1>Education</h1>
         <img src="virginiatech.png" alt="Virginia Tech Logo" style={{ width: 150, height: 150 }} />
         <h3>B.S. Computer Science, Virginia Tech, 2023</h3>
       </div>
     </div>
-    <div style={{ height: "200vh" }}>
+    <div style={{ height: "100vh" }}>
       <div className="blob">
         <h1>Links</h1>
         <div style={{ lineHeight: "64px", width: "256px" }}>
