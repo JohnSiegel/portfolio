@@ -82,7 +82,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         </table>
       </div>
     </div>
-    <div style={{ height: "200vh" }}>
+    <div style={{ height: "250vh" }}>
       <div className="blob">
         <h1>Experience</h1>
         <h3 style={{ textDecorationLine: 'underline' }}>
