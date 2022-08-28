@@ -1,4 +1,4 @@
-To start, run the following command:
+To start, run the following commands:
 ```
 npm i
 npm start
