@@ -71,6 +71,14 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
             <td>Flutter</td>
             <td>Redis</td>
           </tr>
+          <tr>
+            <td>Git/GitHub</td>
+            <td>GDB</td>
+          </tr>
+          <tr>
+            <td>Emacs/Vim</td>
+            <td>Visual Studio (VS & VSC)</td>
+          </tr>
         </table>
       </div>
     </div>
