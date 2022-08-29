@@ -29,8 +29,11 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div style={{ height: '175vh' }}>
       <div className="blob">
         <h1>About</h1>
-        <p style={{lineHeight: '1rem', fontStyle: 'italic'}}>"You can't learn everything, but you have to convince yourself that you can learn anything..."</p>
-        <p style={{textAlign: 'right'}}>- John Carmack</p>
+        <p style={{ lineHeight: '1rem', fontStyle: 'italic' }}>
+          "You can't learn everything, but you have to convince yourself that
+          you can learn anything..."
+        </p>
+        <p style={{ textAlign: 'right' }}>- John Carmack</p>
         <img
           src="portrait.jpg"
           alt="John Siegel"
@@ -51,8 +54,8 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         He was completely self taught until high school, where he took his first
         computer science class. Over a long period of time he realized software
         development was his passion, and he began to pursue a deeper knowledge
-        both in and outside the classroom. Since then John has been a part of many projects
-        where his skills have grown exponentially.
+        both in and outside the classroom. Since then John has been a part of
+        many projects where his skills have grown exponentially.
       </div>
     </div>
     <div style={{ height: '100vh' }}>
