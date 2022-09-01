@@ -14,8 +14,8 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div style={{ height: '100vh' }}>
       <div className="blob">
         <h1>John Siegel</h1>
-        Software Engineer with an interest in machine learning, graphics, and
-        web development.
+        Software Engineer with an interest in Machine learning, Graphics, and
+        Web Development.
         <br />
         <div style={{ textAlign: 'left', paddingTop: '32px' }}>
           <a href="/Resume.pdf" target="_blank" rel="noreferrer">
@@ -29,11 +29,6 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div style={{ height: '175vh' }}>
       <div className="blob">
         <h1>About</h1>
-        <p style={{ lineHeight: '1rem', fontStyle: 'italic' }}>
-          "You can't learn everything, but you have to convince yourself that
-          you can learn anything..."
-        </p>
-        <p style={{ textAlign: 'right' }}>- John Carmack</p>
         <img
           src="portrait.jpg"
           alt="John Siegel"
@@ -47,15 +42,27 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
           }}
         />
         John Siegel is a software developer expecting to graduate with a B.S.
-        Computer Science from Virginia Tech in Fall 2023. He is very passionate
-        about machine learning, graphics, and web development. He began learning
-        to code when he was 12 years old. At a young age he was fascinated with
-        computers and spent all his time studying digital systems and software.
-        He was completely self taught until high school, where he took his first
-        computer science class. Over a long period of time he realized software
-        development was his passion, and he began to pursue a deeper knowledge
-        both in and outside the classroom. Since then John has been a part of
-        many projects where his skills have grown exponentially.
+        Computer Science from Virginia Tech in Fall 2023. He is particularly
+        interested in the studies of Machine Learning, Graphics, and Web
+        Development. He has experience in many different programming languages,
+        although he is most experienced in C++, Dart, and JavaScript. He has
+        worked on a wide variety of personal projects such as a DCGAN in
+        PyTorch, a game using Unreal Engine 5 running on an autoscaling backend
+        using AWS, and a mobile app using Flutter and Rust. He has worked for
+        Stellar Science since May 2022 developing C++ code related to graphics,
+        physics simulation, and image manipulation. He has worked on projects
+        with over 30 active developers, bug-fixing, implementing new features,
+        performing code reviews, pair programming, and writing user stories. He
+        is very familiar with Agile methodologies and test-driven development.
+        He has a passion for mathematics, physics, and technology. Although he
+        spends most of his time pursuing his studies in those fields, he also
+        enjoys his hobbies as well. John runs frequently, listens to podcasts
+        such as Lex Fridman, and reads science-fiction and manga.
+        <p style={{ lineHeight: '1rem', fontStyle: 'italic' }}>
+          "You can't learn everything, but you have to convince yourself that
+          you can learn anything..."
+        </p>
+        <p style={{ textAlign: 'right' }}>- John Carmack</p>
       </div>
     </div>
     <div style={{ height: '100vh' }}>
