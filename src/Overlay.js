@@ -26,7 +26,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         </div>
       </div>
     </div>
-    <div style={{ height: '200vh' }}>
+    <div style={{ height: '225vh' }}>
       <div className="blob">
         <h1>About</h1>
         <img
