@@ -73,16 +73,16 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
             <th>Languages</th>
           </tr>
           <tr>
-            <td>C/C++ & CMake</td>
+            <td>C, C++ & CMake</td>
             <td>Dart</td>
           </tr>
           <tr>
-            <td>JavaScript</td>
+            <td>TypeScript</td>
             <td>Python</td>
           </tr>
           <tr>
             <td>Java</td>
-            <td>Verilog</td>
+            <td>Go</td>
           </tr>
           <tr style={{ padding: "8px", textAlign: "left" }}>
             <th>Software and Tools</th>
@@ -92,8 +92,8 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
             <td>Docker</td>
           </tr>
           <tr>
-            <td>Pytorch</td>
-            <td>OpenCV</td>
+            <td>PyTorch</td>
+            <td>NumPy</td>
           </tr>
           <tr>
             <td>React</td>
@@ -101,23 +101,23 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
           </tr>
           <tr>
             <td>MongoDB</td>
-            <td>AWS & GCP</td>
+            <td>Redis</td>
           </tr>
           <tr>
-            <td>Socket.io</td>
+            <td>OpenCV</td>
             <td>OpenGL</td>
           </tr>
           <tr>
             <td>Flutter</td>
-            <td>Redis</td>
+            <td>Socket.io</td>
           </tr>
           <tr>
-            <td>Git/GitHub</td>
-            <td>GDB</td>
+            <td>Git</td>
+            <td>AWS & GCP</td>
           </tr>
           <tr>
-            <td>Emacs/Vim</td>
-            <td>Visual Studio (VS & VSC)</td>
+            <td>JUnit</td>
+            <td>Jest</td>
           </tr>
         </table>
       </div>
