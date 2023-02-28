@@ -126,7 +126,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
       <div className="blob">
         <h1>Experience</h1>
         <h3 style={{ textDecorationLine: "underline" }}>05/22 - Current</h3>
-        <h4>Stellar Science, Jr. Scientific Software Engineer</h4>
+        <h4>Stellar Science, Scientific Software Engineer Intern</h4>
         <ul>
           <li>
             Developing C++ software for physics simulation and image
