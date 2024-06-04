@@ -11,7 +11,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
     }}
     className="scroll"
   >
-    <div style={{ height: "100vh" }}>
+    <div style={{ height: isMobile ? "85vh" : "100vh" }}>
       <div className="blob">
         <h1>John Siegel</h1>
         Software Engineer with a passion for high quality code.
@@ -25,7 +25,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
         </div>
       </div>
     </div>
-    <div style={{ height: "120vh" }}>
+    <div style={{ height: isMobile ? "150vh" : "130vh" }}>
       <div className="blob" style={{maxWidth: "600px"}}>
         <h1>About</h1>
         <img
@@ -104,7 +104,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
         </table>
       </div>
     </div>
-    <div style={{ height: isMobile ? "300vh" : "250vh" }}>
+    <div style={{ height: isMobile ? "310vh" : "240vh" }}>
       <div className="blob">
         <h1>Experience</h1>
         <h3 style={{ textDecorationLine: "underline" }}>01/24 - Current</h3>
@@ -150,7 +150,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
         </ul>
       </div>
     </div>
-    <div style={{ height: "100vh" }}>
+    <div style={{ height: isMobile ? "90vh" : "100vh" }}>
       <div className="blob">
         <h1>Education</h1>
         <img
