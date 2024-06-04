@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import SocialLink from "./SocialLink";
 
-const Overlay = forwardRef(({ caption, scroll }, ref) => (
+const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
   <div
     ref={ref}
     onScroll={(e) => {
@@ -51,60 +51,60 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
       <div className="blob">
         <h1>Skills</h1>
         <table>
-          <tr style={{ textAlign: "left" }}>
+          <tbody style={{ textAlign: "left" }}>
             <th>Languages</th>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>C++ & CMake</td>
             <td>Dart</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>TypeScript</td>
             <td>Python</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>Java</td>
             <td>Go</td>
-          </tr>
-          <tr style={{ padding: "8px", textAlign: "left" }}>
+          </tbody>
+          <tbody style={{ padding: "8px", textAlign: "left" }}>
             <th>Software and Tools</th>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>Nodejs</td>
             <td>Docker</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>PyTorch</td>
             <td>NumPy</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>React</td>
             <td>Qt</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>MongoDB</td>
             <td>Redis</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>OpenCV</td>
             <td>OpenGL</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>Flutter</td>
             <td>Socket.io</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>Git</td>
             <td>AWS & GCP</td>
-          </tr>
-          <tr>
+          </tbody>
+          <tbody>
             <td>JUnit</td>
             <td>Jest</td>
-          </tr>
+          </tbody>
         </table>
       </div>
     </div>
-    <div style={{ height: "250vh" }}>
+    <div style={{ height: isMobile ? "300vh" : "250vh" }}>
       <div className="blob">
         <h1>Experience</h1>
         <h3 style={{ textDecorationLine: "underline" }}>01/24 - Current</h3>
