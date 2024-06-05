@@ -114,7 +114,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
             Personally appointed as the first ever "Code-Quality Enforcer" by the CEO - Responsible for reviewing the entire company's codebase to find refactoring and improvement opportunities
           </li>
           <li>
-            Leading the software development effort for multiple projects of varying team size in collaboration with Air Force Research Lab, Raytheon, and other defense contractors
+            Leading software development efforts on multiple projects in collaboration with Air Force Research Lab, Raytheon, and other defense contractors
           </li>
           <li>Meeting with customers, attending conferences, and writing user stories</li>
         </ul>
@@ -143,7 +143,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
         <h4>Lead Developer, Project Shinobi</h4>
         <ul>
           <li>Designed the entire system architecture for a 3D MMO game using AWS and Unreal Engine 4</li>
-          <li>Led a team of 10 developers to implement the system architecture specification under an AGILE framework</li>
+          <li>Led a team of 10 developers to implement the system architecture specification under an Agile framework</li>
           <li>
             Released the game and earned 4.5 million+ views on a YouTube demo <a href="https://www.youtube.com/watch?v=U30y2SjIK6o">(link)</a>
           </li>
