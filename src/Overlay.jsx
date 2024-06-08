@@ -40,7 +40,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
             shapeOutside: "circle(50%)",
           }}
         />
-        Hi, I'm John. I have worked as a software developer for Stellar Science since May 2022. I graduated from Virginia Tech with a B.S. Computer Science in January 2023. I have experience writing C++, Python, Java, Typescript, and Dart in production applications with varying amounts of active users. I am most experienced in laser and satellite simulations, the Monte Carlo method, GUIs, distributed computing, websites, and mobile apps. I have worked in teams ranging in sizes from 3-30 developers. I have experience interacting with customers, attending conferences, and putting AGILE methodologies into practice.
+        Hi, I'm John. I have worked as a software developer for Stellar Science since May 2022. I graduated from Virginia Tech with a B.S. Computer Science in January 2023. I have experience writing C++, Python, Java, Typescript, and Dart in production applications with varying amounts of active users. I am most experienced in laser and satellite simulations, the Monte Carlo method, GUIs, distributed computing, websites, and mobile apps. I have worked in teams ranging in sizes from 3-30 developers. I have experience interacting with customers, attending conferences, and putting Agile methodologies into practice.
         <p style={{ lineHeight: "1rem", fontStyle: "italic" }}>
           "You can't learn everything, but you have to convince yourself that you can learn anything..."
         </p>
