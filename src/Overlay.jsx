@@ -40,7 +40,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
             shapeOutside: "circle(50%)",
           }}
         />
-        Hi, I'm John. I have worked as a software developer for Stellar Science since May 2022. I graduated from Virginia Tech with a B.S. Computer Science in January 2023. I have experience writing C++, Python, Java, Typescript, and Dart in production applications with varying amounts of active users. I am most experienced in laser and satellite simulations, the Monte Carlo method, GUIs, distributed computing, websites, and mobile apps. I have worked in teams ranging in sizes from 3-30 developers. I have experience interacting with customers, attending conferences, and putting Agile methodologies into practice.
+        Hi, I'm John. I started programming in 2012 when I was 12 years old. As a kid, I always found myself more fascinated with how video games were created than the actual games themselves. Because of this fascination I was constantly trying to learn more about software. I taught myself Java in my teennage years and was making money by creating Minecraft Server plugins before I ever took a programming class.
         <p style={{ lineHeight: "1rem", fontStyle: "italic" }}>
           "You can't learn everything, but you have to convince yourself that you can learn anything..."
         </p>
@@ -107,6 +107,36 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
     <div style={{ height: isMobile ? "310vh" : "240vh" }}>
       <div className="blob">
         <h1>Experience</h1>
+        <h3 style={{ textDecorationLine: "underline" }}>04/2024 - Current</h3>
+        <h4>Chief Technology Officer, MABLE Software</h4>
+        <ul>
+          <li>
+            Created product requirements and project plans for 8 software projects.
+          </li>
+          <li>
+            Led the development of all 8 software projects using Next.js, PostgreSQL, AWS S3, and various AI tools/services.
+          </li>
+          <li>Managed a team of 4 engineers and oversaw all technical operations.</li>
+          <li>Created countless diagrams and graphics to explain technical concepts to non-technical stakeholders.</li>
+          <li>Performed 40+ product demos in front of executive leadership for a wide range of clients.</li>
+        </ul>
+        <h3 style={{ textDecorationLine: "underline" }}>05/2022 - 02/2025</h3>
+        <h4>Sr. Software Engineer, Stellar Science</h4>
+        <ul>
+          <li>Personally appointed as the first ever "Code-Quality Enforcer" by the CEO - Responsible for reviewing the entire company's codebase to find refactoring and improvement opportunities.</li>
+          <li>
+            Developed complex physics simulations in C++ to be ran on high performance computing clusters.
+          </li>
+          <li>
+            Worked with our clients to develop GUIs that perfectly solve their problems.
+          </li>
+          <li>
+            Solely developed a brand new GUI framework on top of Qt, designed specifically for developing
+            editors with advanced compile-time safety.
+          </li>
+          <li>Increased unit test coverage from roughly 45% to roughly 80% in a large 20 year old C++ codebase.</li>
+          <li>Led the project to port a massive C++ project to the web using React and Typescript.</li>
+        </ul>
         <h3 style={{ textDecorationLine: "underline" }}>01/24 - Current</h3>
         <h4>Sr. Software Developer, Stellar Science</h4>
         <ul>
@@ -117,18 +147,6 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
             Leading software development efforts on multiple projects in collaboration with Air Force Research Lab, Raytheon, and other defense contractors
           </li>
           <li>Meeting with customers, attending conferences, and writing user stories</li>
-        </ul>
-        <h3 style={{ textDecorationLine: "underline" }}>05/22 - 01/24</h3>
-        <h4>Software Developer, Stellar Science</h4>
-        <ul>
-          <li>Practicing test-driven development and creating user story centric tests</li>
-          <li>
-            Developing physics simulations for high performance computing systems
-          </li>
-          <li>
-            Working in teams ranging in size from 5-30 people - including analysts, technical writers, and other software developers
-          </li>
-          <li>Working directly with UX professionals and market researchers</li>
         </ul>
         <h3 style={{ textDecorationLine: "underline" }}>03/22 - 03/24</h3>
         <h4>Chief Technology Officer, Umee</h4>
