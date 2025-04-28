@@ -148,7 +148,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
           </li>
           <li>Meeting with customers, attending conferences, and writing user stories</li>
         </ul>
-        <h3 style={{ textDecorationLine: "underline" }}>03/22 - 03/24</h3>
+        <h3 style={{ textDecorationLine: "underline" }}>03/2022 - 03/2024</h3>
         <h4>Chief Technology Officer, Umee</h4>
         <ul>
           <li>Led a team of eight developers to create an MVP with Flutter and AWS products</li>
@@ -157,7 +157,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
             Collaborated with marketing and business development teams to ensure alignment between our technological and business goals
           </li>
         </ul>
-        <h3 style={{ textDecorationLine: "underline" }}>01/21 - 03/22</h3>
+        <h3 style={{ textDecorationLine: "underline" }}>01/2021 - 03/2022</h3>
         <h4>Lead Developer, Project Shinobi</h4>
         <ul>
           <li>Designed the entire system architecture for a 3D MMO game using AWS and Unreal Engine 4</li>
