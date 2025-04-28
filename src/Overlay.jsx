@@ -137,17 +137,6 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
           <li>Increased unit test coverage from roughly 45% to roughly 80% in a large 20 year old C++ codebase.</li>
           <li>Led the project to port a massive C++ project to the web using React and Typescript.</li>
         </ul>
-        <h3 style={{ textDecorationLine: "underline" }}>01/24 - Current</h3>
-        <h4>Sr. Software Developer, Stellar Science</h4>
-        <ul>
-          <li>
-            Personally appointed as the first ever "Code-Quality Enforcer" by the CEO - Responsible for reviewing the entire company's codebase to find refactoring and improvement opportunities
-          </li>
-          <li>
-            Leading software development efforts on multiple projects in collaboration with Air Force Research Lab, Raytheon, and other defense contractors
-          </li>
-          <li>Meeting with customers, attending conferences, and writing user stories</li>
-        </ul>
         <h3 style={{ textDecorationLine: "underline" }}>03/2022 - 03/2024</h3>
         <h4>Chief Technology Officer, Umee</h4>
         <ul>
