@@ -165,7 +165,7 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
           alt="Virginia Tech Logo"
           style={{ width: 150, height: 150 }}
         />
-        <h3>B.S. Computer Science, Virginia Tech, 2024</h3>
+        <h3>B.S. Computer Science, Virginia Tech, 12/2023</h3>
       </div>
     </div>
     <div style={{ height: "100vh" }}>
