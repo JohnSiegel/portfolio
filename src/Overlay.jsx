@@ -28,23 +28,36 @@ const Overlay = forwardRef(({ caption, scroll, isMobile }, ref) => (
     <div style={{ height: isMobile ? "150vh" : "130vh" }}>
       <div className="blob" style={{maxWidth: "600px"}}>
         <h1>About</h1>
-        <img
-          src="portrait.jpg"
-          alt="John Siegel"
+        <div
           style={{
-            borderRadius: "50%",
-            width: "45%",
-            height: "45%",
-            float: "left",
-            margin: "40px 20px 30px 0",
-            shapeOutside: "circle(50%)",
+            display: "flex",
+            flexDirection: isMobile ? "column" : "row",
+            alignItems: "flex-start",
+            gap: "20px",
+            marginTop: "20px",
           }}
-        />
-        Hi, I'm John. I started programming in 2012 when I was 12 years old. As a kid, I always found myself more fascinated with how video games were created than the actual games themselves. Because of this fascination I was constantly trying to learn more about software. I taught myself Java in my teennage years and was making money by creating Minecraft Server plugins before I ever took a programming class.
-        <p style={{ lineHeight: "1rem", fontStyle: "italic" }}>
-          "You can't learn everything, but you have to convince yourself that you can learn anything..."
-        </p>
-        <p style={{ textAlign: "right" }}>- John Carmack</p>
+        >
+          <img
+            src="portrait.jpg"
+            alt="John Siegel"
+            style={{
+              borderRadius: "50%",
+              width: isMobile ? "150px" : "200px",
+              height: isMobile ? "150px" : "200px",
+              flexShrink: 0,
+            }}
+          />
+          <div style={{ lineHeight: "1.5" }}>
+            <p>
+              Hi, I'm John. I started programming in 2012 when I was 12 years old. As a kid, I always found myself more
+              fascinated with how video games were created than the actual games themselves...
+            </p>
+            <p style={{ fontStyle: "italic", lineHeight: "1rem" }}>
+              "You can't learn everything, but you have to convince yourself that you can learn anything..."
+            </p>
+            <p style={{ textAlign: "right" }}>- John Carmack</p>
+          </div>
+        </div>
       </div>
     </div>
     <div style={{ height: "100vh" }}>
